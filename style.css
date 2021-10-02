@@ -54,6 +54,7 @@ p, h1 {
 
 .stars {
     float: left;
+    vertical-align: middle;
 }
 
 .rate-box p {
@@ -62,6 +63,7 @@ p, h1 {
     font-weight: 700;
     font-size: 12px;
     color:hsl(300, 43%, 22%);
+    vertical-align: middle;
 }
 
 .rate-box:nth-child(1) {
@@ -72,6 +74,72 @@ p, h1 {
 .rate-box:nth-child(2) {
     position: relative;
     left: -10%;
+}
+
+#bottom-area {
+    margin: 40px 0;
+    height: 200px;
+}
+
+.profile {
+    background-color: hsl(300, 43%, 22%);
+    width: 30%;
+    display: inline-block;
+    margin: 1.1%;
+    border-radius: 5px;
+    color: white;
+}
+
+.profile p {
+    font-size: 13px;
+}
+
+.info {
+    margin: 30px;
+}
+
+.photo {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.username {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 15px;
+}
+
+.username p {
+    padding: 3px 0;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.bio {
+    color:hsl(300, 24%, 96%);
+    padding: 0 10% 10% 10%;
+}
+
+.bio p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+.profile:nth-child(1) {
+    position: relative;
+    top: -10%;
+}
+
+.profile:nth-child(3) {
+    position: relative;
+    top: 10%;
 }
 
 .close {
