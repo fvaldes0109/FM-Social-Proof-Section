@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Spartan;
+    src: url('./fonts/Spartan-VariableFont_wght.ttf');
+}
+
+#bg-top {
+    position: absolute;
+}
+
+#bg-bottom {
+    position: absolute;
+}
+
+main {
+    padding: 7%;
+}
+
+p, h1 {
+    font: 15px Spartan;
+}
+
+#left-area {
+    float: left;
+    width: 39%;
+}
+
+#left-area h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: hsl(300, 43%, 22%)
+}
+
+#left-area p {
+    font-size: 15px;
+    margin: 15px 0;
+    color: hsl(303, 10%, 53%)
+}
+
+#right-area {
+    float: right;
+}
+
+.rate-box {
+    background-color: hsl(300, 24%, 96%);
+    margin: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.stars {
+    float: left;
+}
+
+.rate-box p {
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 12px;
+    color:hsl(300, 43%, 22%);
+}
+
+.rate-box:nth-child(1) {
+    position: relative;
+    left: -20%;
+}
+
+.rate-box:nth-child(2) {
+    position: relative;
+    left: -10%;
+}
+
+.close {
+    clear: both;
+}
