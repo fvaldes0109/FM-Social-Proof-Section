@@ -14,6 +14,7 @@
 
 #bg-bottom {
     position: absolute;
+    bottom: -100%;
 }
 
 main {
@@ -144,4 +145,57 @@ p, h1 {
 
 .close {
     clear: both;
+}
+
+@media(max-width: 375px) {
+    main {
+        padding: 5%;
+    }
+
+    #left-area {
+        width: 100%;
+        margin: 15% 0 0;
+        text-align: center;
+    }
+
+    #left-area p {
+        padding: 5% 0 0;
+    }
+
+    #right-area {
+        width: 100%;
+    }
+
+    .rate-box {
+        margin: 15px 0;
+    }
+
+    .rate-box:nth-child(1) {
+        left: 0;
+    }
+
+    .rate-box:nth-child(2) {
+        left: 0;
+    }
+
+    .stars {
+        display: block;
+        margin: 2% auto;
+        width: 106px;
+        float: none;
+    }
+
+    .rate-box p {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    #bottom-area {
+        height: auto;
+    }
+
+    .profile {
+        width: 100%;
+    }
 }
